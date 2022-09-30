@@ -1,0 +1,89 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Do you want Dhelp on or off?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Do you want Dhelp on or off?",
+          "x": 135,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(you can toggle with r if you",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(you can toggle with r if you",
+          "x": 132,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "change your mind!)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "change your mind!)",
+          "x": 159,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "On",
+          "onClick": {
+            "name": "BTon"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "On",
+          "x": 158,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Off",
+          "onClick": {
+            "name": "BToff"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Off",
+          "x": 229,
+          "y": 149
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

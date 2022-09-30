@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dhelp"
+version="0.0.0.0"
+displayName="DHelp"
+credits="Tca"
+displayURL="https://mcreator.net"
+authors="Tca"
+description='''
+This mod helps ya out when you die
+'''
+
+[[dependencies.dhelp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
